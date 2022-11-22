@@ -29,7 +29,7 @@ function App() {
           <main className="content">
             <Topbar />
             <Routes>
-              <Route exact path="/dashboard" element={<Dashboard />} />
+              <Route exact path="/" element={<Dashboard />} />
               <Route exact path="/team" element={<Team />} />
               <Route exact path="/contacts" element={<Contacts />} />
               <Route exact path="/invoices" element={<Invoices />} />
