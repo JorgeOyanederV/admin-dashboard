@@ -22,7 +22,9 @@ const Sidebar = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
-  const [selected, setSelected] = useState(window.location.pathname);
+  const [selected, setSelected] = useState(
+    window.location.hash === "#/" ? "/dashboard" : window.location.hash
+  );
   return (
     <Box
       sx={{
