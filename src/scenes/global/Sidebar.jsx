@@ -16,6 +16,7 @@ import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutl
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import profileImage from "../../assets/profileImage.jpeg";
 
 const Sidebar = () => {
   const theme = useTheme();
@@ -80,7 +81,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`https://scontent.fanf4-1.fna.fbcdn.net/v/t39.30808-6/313349558_503504338361599_5410866171967401710_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SwKa5SBbApsAX_c1gzM&_nc_ht=scontent.fanf4-1.fna&oh=00_AfC3IIrQUr7Q3z_4Vx3pIaz8QLQ4IxmBzy9H5OrWy8arAw&oe=63719590`}
+                  src={profileImage}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
